@@ -13,8 +13,8 @@ function addVoicesToSelect() {
 			option.textContent += ' - DEFAULT';
 		}
 
-		option.setAttribute('data-lang', voices[i].lang);
 		option.setAttribute('data-name', voices[i].name);
+		option.setAttribute('data-lang', voices[i].lang);
 		voiceSelect.appendChild(option);
 	}
 }
